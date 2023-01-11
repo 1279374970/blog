@@ -7,7 +7,7 @@
     "vuepress": "^1.9.8"
   },
     "scripts": {
-      "dev": "vuepress dev docs",
+      "dev:docs": "vuepress dev docs",
       "docs:build": "vuepress build docs"
     }
   
