@@ -1,17 +1,42 @@
 module.exports = {
-  title: "科技趣玩",
-  description: "分享各类资源、教程、黑科技软件、工具等等",
+  title: "TypeScript4 文档",
+  description: "TypeScript4 最新官方文档翻译",
+  base: "/blog/",
   theme: "reco",
-  markdown: {
-    lineNumbers: true,
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
   },
-  // themeConfig: {
-  //   sidebar: [
-  //     {
-  //       title: '软件资源',
-  //       children: ['/软件资源/软件资源' ],
-  //       initialOpenGroupIndex: 1 // 可选的, 默认值是 0
-  //     }
-  //   ]
-  // },
+  themeConfig: {
+    // lastUpdated: '上次更新',
+    subSidebar: "auto",
+    nav: [
+      { text: "首页", link: "/" },
+      {
+        text: "冴羽的 JavaScript 博客",
+        items: [
+          { text: "Github", link: "https://github.com/mqyqingfeng" },
+          { text: "掘金", link: "https://juejin.cn/user/712139234359182/posts" },
+        ],
+      },
+    ],
+    sidebar: [
+      {
+        title: "欢迎学习",
+        path: "/",
+        collapsable: false,
+        children: [{ title: "学前必读", path: "/" }],
+      },
+      {
+        title: "基础学习",
+        path: "",
+        collapsable: false,
+        children: [
+          { title: "条件类型", path: "" },
+          { title: "泛型", path: "" },
+        ],
+      },
+    ],
+  },
 };
