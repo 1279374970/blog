@@ -3,7 +3,7 @@
 
 ## 学习方法
 
-![学习方法](./src/assets/image/学习方法.png)
+![学习方法](https://github.com/jp-liu/study-every-day/blob/main/src/assets/image/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95.png)
 
 ## 费曼学习法
 
@@ -36,7 +36,7 @@
 
 慢慢补充,其中`html` `css` `http` 处于工作和自身需要,优先级低于 `js` , 所以先学习 `js`,其余两项后面补充
 
-![重学前端路线](./src/assets/image/重学前端路线.png)
+![重学前端路线]([./src/assets/image/重学前端路线.png](https://github.com/jp-liu/study-every-day/blob/main/src/assets/image/%E9%87%8D%E5%AD%A6%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%BA%BF.png))
 
 ## JavaScript 基础系列
 
